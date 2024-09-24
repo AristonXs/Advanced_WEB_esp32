@@ -2,8 +2,8 @@
 #include <ESPAsyncWebServer.h>
 #include <SPIFFS.h>
 
-const char *ssid = "Nom du réseau";
-const char *password = "Mot de passe";
+const char *ssid = "Rasp";
+const char *password = "12345678";
 const int led = 2; // Led intégrée à l'ESP32
 AsyncWebServer server(80);
 void setup()
